@@ -1,3 +1,3 @@
 # predicting_lol_c1_matches
 
-Show how to export data from Riot Games API, extract it into a database to use to predict the winner of the game based on draft.
+I built a full pipeline that uses Riot API data to learn draft-only signals for match outcomes. With champion presence, synergy, and counter features feeding a boosted-tree model, it achieves ~76% test accuracy and can score any draft in real time.
