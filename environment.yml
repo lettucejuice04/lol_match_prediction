@@ -1,0 +1,26 @@
+name: lol_match_prediction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - sqlalchemy
+  - lightgbm
+  - xgboost
+  - requests
+  - python-dotenv
+  - ipykernel
+  - psycopg2-binary
+  - pytest
+  - numpy
+  - pip
+  - pip:
+      - -e .
+      - alembic
+      - mako
+      - markupsafe
+      - pangres
